@@ -23,6 +23,18 @@ git commit -m "<提交信息>"
 
 # 查看提交记录
 git log
+
+# 分支 branch
+# 添加分支
+git branch <branch name>
+# 查看所有分支
+git branch
+# 切换分支
+git checkout <branch name>
+# 删除已合并分支
+git branch -d <branch name>
+# 删除未合并分支
+git branch -D <branch name>
 ```
 ---
 ## git add 命令详解
