@@ -16,6 +16,13 @@ git init
 git status
 git status --short
 git status -s
+
+# 将暂存区文件提交到本地仓库
+git commit
+git commit -m "<提交信息>"
+
+# 查看提交记录
+git log
 ```
 ---
 ## git add 命令详解
@@ -64,7 +71,7 @@ U           U    unmerged, both modified
 !           !    ignored
 -------------------------------------------------
 ```
-
+---
 ## tips
 - git log 退出方法: 按下Q键
 - 修改默认git编辑器:  git config --global core.editor "vim"
