@@ -48,6 +48,9 @@ git branch -d <branch name>
 
 # 删除未合并分支
 git branch -D <branch name>
+
+# 将指定分支合并到当前分支
+git merge <其他分支>
 ```
 ---
 ## git add 命令详解
