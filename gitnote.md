@@ -64,3 +64,7 @@ U           U    unmerged, both modified
 !           !    ignored
 -------------------------------------------------
 ```
+
+## tips
+- git log 退出方法: 按下Q键
+- 修改默认git编辑器:  git config --global core.editor "vim"
