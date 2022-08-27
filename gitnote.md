@@ -17,22 +17,35 @@ git status
 git status --short
 git status -s
 
+# 添加文件到暂存区
+git add
+
 # 将暂存区文件提交到本地仓库
 git commit
 git commit -m "<提交信息>"
+
+# 直接提交文件到本地仓库
+git commit -a -m "<提交信息>"
 
 # 查看提交记录
 git log
 
 # 分支 branch
-# 添加分支
+# 创建分支
 git branch <branch name>
+
+# 创建并切换分支
+git checkout -b <branch name>
+
 # 查看所有分支
 git branch
+
 # 切换分支
 git checkout <branch name>
+
 # 删除已合并分支
 git branch -d <branch name>
+
 # 删除未合并分支
 git branch -D <branch name>
 ```
