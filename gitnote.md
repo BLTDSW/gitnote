@@ -26,7 +26,7 @@ git status -s
 # 所以第二次 git add 后，修改后的文件快照和索引文件会覆盖修改前的文件。
 ```
 ---
-## git status -s 输出标记详解 [Short Format]
+## git status -s 输出标记详解 []
 - ' ' = unmodified [ 未修改 ]
 - M = modified [ 已修改 ]
 - T = file type changed [ 文件类型已更改 ]
