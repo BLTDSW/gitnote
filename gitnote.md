@@ -75,3 +75,4 @@ U           U    unmerged, both modified
 ## tips
 - git log 退出方法: 按下Q键
 - 修改默认git编辑器:  git config --global core.editor "vim"
+- git ignore 用法: [Git ignore](https://github.com/onlynight/ReadmeDemo/tree/master/Readmes/GitIgnore)
