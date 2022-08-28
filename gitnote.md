@@ -26,6 +26,7 @@ git commit -m "<提交信息>"
 
 # 直接提交文件到本地仓库
 git commit -a -m "<提交信息>"
+git commit -am "<提交信息>"
 
 # 查看提交记录
 git log
